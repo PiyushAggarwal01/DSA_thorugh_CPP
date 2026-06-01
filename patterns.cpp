@@ -26,6 +26,9 @@ void print3 (int n ){
         cout<<endl;
      }
 }
+void print4(int n ){
+    
+}
 int main(){
     int t;
     cin>>t;
