@@ -177,6 +177,22 @@ void print14( int n){
 
     }
 }
+void print15( int n ){
+  
+    for ( int i = 0; i < n ; i ++){
+        char ch = 'A' + i ;
+        for ( int j = 0 ; j <= i ; j ++){
+           cout<<ch;
+
+
+        }
+        cout<<endl;
+    }
+}
+
+void print16( int n ){
+    
+}
 int main(){
     cout<<" namaste ji";
     int t;
@@ -184,7 +200,7 @@ int main(){
     for ( int i = 0; i<t; i++){
         int n ;
         cin>>n;
-        print14(n);
+        print15(n);
 
     }
 }
