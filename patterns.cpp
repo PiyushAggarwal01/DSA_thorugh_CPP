@@ -147,6 +147,21 @@ void print11( int n){
         space = space -2;
     }
 }
+void print12( int n){
+    int num = 1 ;
+    for ( int i = 0 ; i < n ; i ++){
+        
+        for ( int j = 0 ; j < i ; j ++){
+            cout<< num;
+            num = num + 1;
+        }
+        cout << endl;
+    }
+}
+
+void print13( int n ){
+    
+}
 int main(){
     cout<<" namaste ji";
     int t;
@@ -154,7 +169,7 @@ int main(){
     for ( int i = 0; i<t; i++){
         int n ;
         cin>>n;
-        print11(n);
+        print12(n);
 
     }
 }
