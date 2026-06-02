@@ -117,6 +117,22 @@ void print9( int n  ){
         cout<<endl;
     }
 }
+void print10( int n ){
+    int stars = 1;
+    for ( int i= 0 ; i < n ; i ++){
+        if ( i % 2== 0 ) stars = 1 ;
+        else stars = 0;
+        for ( int j = 0 ; j <= i ; j ++){
+            cout << stars ; 
+            stars = 1 -  stars; 
+
+        }
+        cout<< endl;   
+    }
+}
+void print11( int i ){
+    
+}
 int main(){
     cout<<" namaste ji";
     int t;
@@ -124,6 +140,9 @@ int main(){
     for ( int i = 0; i<t; i++){
         int n ;
         cin>>n;
-        print8(n);
+
+
+        print10(n);
 
     }
+}
