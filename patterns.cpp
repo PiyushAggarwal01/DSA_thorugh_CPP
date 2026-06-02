@@ -161,12 +161,13 @@ void print12( int n){
 
 void print13( int n ){
     for ( int i  = 0 ; i < n ; i++){
-        for ( char ch = 'A'; ch <= ' A' + i ;  ch++){
+        for ( char ch = 'A'; ch <= 'A' + i ;  ch++){
             cout<< ch<< " ";
         }
         cout<<endl;
     }
 }
+
 int main(){
     cout<<" namaste ji";
     int t;
